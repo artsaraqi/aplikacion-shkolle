@@ -1,0 +1,189 @@
+{
+  "schedule": [
+    {
+      "id": "1",
+      "subject": "Matematik",
+      "instructor": "Prof. Fatmire",
+      "location": "klasa L5",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "2",
+      "subject": "Physics",
+      "instructor": "Dr. Johnson",
+      "location": "Lab 201",
+      "dayOfWeek": 1,
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "color": "#10B981"
+    },
+    {
+      "id": "3",
+      "subject": "Computer Science",
+      "instructor": "Prof. Williams",
+      "location": "Lab 301",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "4",
+      "subject": "English Literature",
+      "instructor": "Dr. Brown",
+      "location": "Room 102",
+      "dayOfWeek": 2,
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "5",
+      "subject": "Mathematics",
+      "instructor": "Prof. Smith",
+      "location": "Room 101",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "6",
+      "subject": "History",
+      "instructor": "Prof. Davis",
+      "location": "Room 203",
+      "dayOfWeek": 3,
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "color": "#EF4444"
+    },
+    {
+      "id": "7",
+      "subject": "Physics",
+      "instructor": "Dr. Johnson",
+      "location": "Lab 201",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#10B981"
+    },
+    {
+      "id": "8",
+      "subject": "Computer Science",
+      "instructor": "Prof. Williams",
+      "location": "Lab 301",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#8B5CF6"
+    }
+  ],
+  "grades": [
+    {
+      "id": "6",
+      "subject": "History",
+      "title": "Term Paper",
+      "score": 82,
+      "maxScore": 100,
+      "weight": 0.3,
+      "date": "2026-03-28"
+    },
+    {
+      "id": "5",
+      "subject": "Mathematics",
+      "title": "Quiz 1",
+      "score": 90,
+      "maxScore": 100,
+      "weight": 0.1,
+      "date": "2026-03-25"
+    },
+    {
+      "id": "4",
+      "subject": "English Literature",
+      "title": "Essay",
+      "score": 78,
+      "maxScore": 100,
+      "weight": 0.15,
+      "date": "2026-03-22"
+    },
+    {
+      "id": "3",
+      "subject": "Computer Science",
+      "title": "Project 1",
+      "score": 88,
+      "maxScore": 100,
+      "weight": 0.25,
+      "date": "2026-03-20"
+    },
+    {
+      "id": "2",
+      "subject": "Physics",
+      "title": "Lab Report",
+      "score": 92,
+      "maxScore": 100,
+      "weight": 0.2,
+      "date": "2026-03-18"
+    },
+    {
+      "id": "1",
+      "subject": "Mathematics",
+      "title": "Midterm Exam",
+      "score": 85,
+      "maxScore": 100,
+      "weight": 0.3,
+      "date": "2026-03-15"
+    }
+  ],
+  "absences": [
+    {
+      "id": "3",
+      "subject": "Computer Science",
+      "date": "2026-03-10",
+      "justified": true,
+      "reason": "Family emergency"
+    },
+    {
+      "id": "2",
+      "subject": "Physics",
+      "date": "2026-03-01",
+      "justified": false,
+      "reason": null
+    },
+    {
+      "id": "1",
+      "subject": "Mathematics",
+      "date": "2026-02-15",
+      "justified": true,
+      "reason": "Doctor appointment"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "type": "assignment",
+      "title": "Math Homework Due",
+      "message": "Chapter 5 exercises due tomorrow",
+      "read": true,
+      "createdAt": "2026-04-02T23:16:43.719Z"
+    },
+    {
+      "id": "2",
+      "type": "grade",
+      "title": "Grade Posted",
+      "message": "Your Physics lab report has been graded: 92/100",
+      "read": true,
+      "createdAt": "2026-04-02T23:16:43.719Z"
+    },
+    {
+      "id": "3",
+      "type": "absence",
+      "title": "Attendance Warning",
+      "message": "You have 2 unexcused absences in Physics",
+      "read": true,
+      "createdAt": "2026-04-02T23:16:43.719Z"
+    }
+  ]
+}
